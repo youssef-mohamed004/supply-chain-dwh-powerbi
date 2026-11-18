@@ -50,7 +50,8 @@ An end-to-end analytics project for a global supply-chain retailer. Raw flat fil
 Each layer is validated before the next one is built (row counts, NULL checks, key uniqueness, orphan checks).
 
 ## Data Model
-![Star schema](images/star_schema.png)
+### Supply Chain Star Schema
+![Supply Chain Star Schema](<images/Supply Chain Star Schema.png>)
 
 - **Grain of `FactOrders`:** one row per order item (`Order_Item_Id`). `Order_Id` repeats, so it is kept as a degenerate dimension and counted with `DISTINCTCOUNT`.
 - `DimDate` covers the full order-date range and is related to the fact on the **order date**.
@@ -123,14 +124,13 @@ docs/      documentation and write-up (Word, English and Arabic)
 2. Run the Silver scripts, then the Gold scripts, in that order.
 3. Open the Power BI report, point it at the `Gold` tables, and apply `assets/SupplyChain_Green_Theme.json`.
 4. Add the measures from `DAX/` (start with `01_base_measures`).
-
 ---
 
 # 👤 About Me
 
 ## Youssef Mohamed
 
-**Data Analytics | SQL | Power BI | DAX | Business Intelligence**
+*Data Analytics | SQL | Power BI | DAX | Business Intelligence*
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/youssef-mohamed-6038092b2/)
 
