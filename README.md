@@ -124,5 +124,18 @@ docs/      documentation and write-up (Word, English and Arabic)
 3. Open the Power BI report, point it at the `Gold` tables, and apply `assets/SupplyChain_Green_Theme.json`.
 4. Add the measures from `DAX/` (start with `01_base_measures`).
 
+---
+
+# 👤 About Me
+
+## Youssef Mohamed
+
+**Data Analytics | SQL | Power BI | DAX | Business Intelligence**
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/youssef-mohamed-6038092b2/)
+
+🔗 [GitHub Profile](https://github.com/youssef-mohamed004)
+
+---
 ## Tech Stack
 SQL Server 2025 (T-SQL) · Power BI · DAX · HTML/SVG (HTML Content visual)
